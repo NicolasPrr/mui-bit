@@ -1,29 +1,19 @@
 import { createTheme } from '@material-ui/core/styles';
-import createSpacing from '@material-ui/core/styles/createSpacing';
 
 import { buttonConfig } from './overrides/button';
 
-const spacing = createSpacing(8);
+import { primary, secondary, grey } from './palette/color';
+
 
 // Create a theme instance.
 const theme = createTheme({
   palette: {
-    primary: {
-      main: '#FF452b',
-    },
-    secondary: {
-      main: '#263238',
-    },
-    error: {
-      main: '#0288d1',
-    },
-    background: {
-      default: '#ffff',
-    },
+    primary,
+    secondary,
+    grey,
   },
-
   typography: {
-    fontFamily: `"CircularPro", "Gill Sans", "Gill Sans MT", "Helvetica Neue", Helvetica, Arial, sans-serif`,
+    fontFamily: "'Nunito', sans-serif",
     button: {
       fontWeight: 700,
       textTransform: 'none',

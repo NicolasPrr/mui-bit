@@ -10,44 +10,44 @@
 
 {
     "envs/my-react": {
-        "scope": "",
-        "version": "",
+        "scope": "nicolasparra.testhoumcolors",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/envs/my-react"
     },
     "pages/welcome": {
-        "scope": "",
-        "version": "",
+        "scope": "nicolasparra.testhoumcolors",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/pages/welcome"
     },
     "theme": {
-        "scope": "",
-        "version": "",
+        "scope": "nicolasparra.testhoumcolors",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/theme"
     },
     "ui/button": {
-        "scope": "",
-        "version": "",
+        "scope": "nicolasparra.testhoumcolors",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/button"
     },
     "ui/card": {
-        "scope": "",
-        "version": "",
+        "scope": "nicolasparra.testhoumcolors",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/card"
     },
     "ui/heading": {
-        "scope": "",
-        "version": "",
+        "scope": "nicolasparra.testhoumcolors",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/heading"
     },
     "ui/text": {
-        "scope": "",
-        "version": "",
+        "scope": "nicolasparra.testhoumcolors",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/text"
     },

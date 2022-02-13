@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { ThemeProvider } from '@material-ui/core';
 import { customTheme } from '@nicolasparra/testhoumcolors.theme';
 import { Button } from './button';
@@ -7,8 +7,12 @@ import AttachFileIcon from '@material-ui/icons/AttachFile';
 import KeyboardVoiceIcon from '@material-ui/icons/KeyboardVoice';
 
 const ThemeWrapper = ({ children }) => {
-  console.log({ customTheme });
+  const [render, setRender] = useState(false);
   const custom = useMemo(() => customTheme, []);
+  useEffect(() => {
+    setTimeout(() => setRender(true), 100);
+  }, []);
+  if (!render) return <></>;
   return <ThemeProvider theme={custom}>{children}</ThemeProvider>;
 };
 
@@ -73,6 +77,20 @@ export const TetriarySecondaryIcon = () => (
       color="secondary"
       variant="outlined"
       size="small"
+    >
+      Continuar
+    </Button>
+  </ThemeWrapper>
+);
+
+export const TetriarySecondaryIconDisabled = () => (
+  <ThemeWrapper>
+    <Button
+      startIcon={<KeyboardVoiceIcon />}
+      color="secondary"
+      variant="outlined"
+      size="small"
+      disabled
     >
       Continuar
     </Button>
