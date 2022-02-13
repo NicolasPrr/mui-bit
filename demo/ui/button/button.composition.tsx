@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { ThemeProvider } from '@material-ui/core';
-import { customTheme } from '@company/scope.theme';
+import { customTheme } from '@nicolasparra/testhoumcolors.theme';
 import { Button } from './button';
 
 import AttachFileIcon from '@material-ui/icons/AttachFile';

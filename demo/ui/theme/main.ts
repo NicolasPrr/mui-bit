@@ -25,7 +25,7 @@ const theme = createTheme({
   typography: {
     fontFamily: `"CircularPro", "Gill Sans", "Gill Sans MT", "Helvetica Neue", Helvetica, Arial, sans-serif`,
     button: {
-      fontWeight: 400,
+      fontWeight: 700,
       textTransform: 'none',
     },
   },
