@@ -116,4 +116,10 @@ export const DefaultWithIcon = () => (
   <ThemeWrapper>
     <Button startIcon={<KeyboardVoiceIcon />}>Continuar</Button>
   </ThemeWrapper>
+)
+;
+export const CreateProperty = () => (
+  <ThemeWrapper>
+    <Button size="small">Crear Propiedad</Button>
+  </ThemeWrapper>
 );

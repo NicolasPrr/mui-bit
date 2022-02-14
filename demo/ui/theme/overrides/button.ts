@@ -8,20 +8,21 @@ const spacing = createSpacing(8);
 export const buttonConfig: Overrides['MuiButton'] = {
   //sizes
   sizeLarge: {
-    height: '48px',
+    minHeight: '48px',
     fontSize: '18px',
     padding: spacing(3 / 2, 29 / 4),
     lineHeight: '24px',
   },
   sizeSmall: {
-    height: '32px',
+    minHeight: '32px',
     fontSize: '14px',
     padding: spacing(3 / 4, 4),
     lineHeight: '20px',
   },
+
   root: {
     borderRadius: '100px',
-    height: '40px',
+    minHeight: '40px',
     fontSize: '16px',
     padding: spacing(9 / 8, 13 / 2),
     lineHeight: '22px',
@@ -53,7 +54,7 @@ export const buttonConfig: Overrides['MuiButton'] = {
     },
   },
   outlined: {
-    height: '40px',
+    minHeight: '40px',
     fontSize: '16px',
     padding: spacing(9 / 8, 13 / 2),
     lineHeight: '22px',
