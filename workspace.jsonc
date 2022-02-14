@@ -41,6 +41,8 @@
       "dependencies": {
         "@material-ui/core": "4.12.3",
         "@material-ui/icons": "4.11.2",
+        "@nicolasparra/testhoumcolors.pages.welcome": "0.0.1",
+        "@nicolasparra/testhoumcolors.theme": "0.0.3",
         "@teambit/design.ui.external-link": "0.0.344",
         "@teambit/documenter.theme.theme-compositions": "4.1.1",
         "@teambit/documenter.ui.copy-box": "4.1.1",

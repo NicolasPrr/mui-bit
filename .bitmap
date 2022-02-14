@@ -29,7 +29,7 @@
     },
     "ui/button": {
         "scope": "nicolasparra.testhoumcolors",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/button"
     },
